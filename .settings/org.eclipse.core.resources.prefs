@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//src/com/aerohive/wsm/LifeCycleBean.java=UTF-8
+encoding//src/com/aerohive/wsm/MyBeanFactoryPostProcessor.java=UTF-8
+encoding//src/com/aerohive/wsm/MyBeanPostProcessor.java=UTF-8
+encoding//src/com/aerohive/wsm/MyInstantiationAwareBeanPostProcessor.java=UTF-8
+encoding//src/com/aerohive/wsm/test/TestBeanFactoryPostProcessor.java=UTF-8
+encoding//src/com/aerohive/wsm/test/TestBeanPostProcessor.java=UTF-8
+encoding//src/com/aerohive/wsm/test/TestInstantiationAwareBeanPostProcessorAdapter.java=UTF-8
