@@ -5,7 +5,7 @@ import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 
-/** 这是全局的，扩展了Spring默认的BeanFactoryPosstProcessor, 在setBeanName()方法回调之前就被调用了 */
+/** 这是全局的，扩展了Spring默认的BeanFactoryPosstProcessor, 在Bean预实例之前就被调用了 */
 /** 作用，可以修改Bean的属性，在配置文件中Bean leftCycle的name的值是single,我们在这里可以覆盖原来的属性值 */
 public class MyBeanFactoryPostProcessor implements BeanFactoryPostProcessor {
 
